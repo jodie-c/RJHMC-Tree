@@ -58,10 +58,3 @@ Tree metrics/information/statistics are saved and output in a pickle file in the
 
 There are several synthetic testing datasets that can be selected via the --dataset argument, available options are listed in the load_data method in utils.py. More information about formatting datasets into the appropriate structure can be found in ./datasets/README.txt
 
-##############################################
-		 Results
-##############################################
-
-Results from the paper were generated via CPU cores, either using Intel Cascade Lake CPU's via a HPC cluster or using a MacBook Pro (16-inch, 2021) with an Apple M1 Pro processor. 
-
-Results for the RJHMC-Tree method are included in the results directory. If Matlab is installed, figures and tabular results from the paper can be reproduced by running plot_results.m. Converted results for all methods are included under the matlab subdirectory. Uncomment the dataset of interest on lines 6-10 and run in the plot_results.m file and run to produce results relating to that dataset.
